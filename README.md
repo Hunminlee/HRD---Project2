@@ -11,12 +11,12 @@ This involves data preprocessing, model training, evaluation, and feature import
 The project is organized into the following structure: 
 ```
 my_project/
-│ ├── main.py # Main script that runs the overall pipeline
-│ ├── data_preprocessing.py # Functions related to data loading, cleaning, and preprocessing
-│ ├── model.py # Model building and training functions
-│ ├── evaluation.py # Evaluation and performance functions (accuracy, feature importance, etc.)
-│ ├── utils.py # Utility functions like checks and plotting
-│ └── requirements.txt # Dependencies file
+├── main.py # Main script that runs the overall pipeline
+├── data_preprocessing.py # Functions related to data loading, cleaning, and preprocessing
+├── model.py # Model building and training functions
+├── evaluation.py # Evaluation and performance functions (accuracy, feature importance, etc.)
+├── utils.py # Utility functions like checks and plotting
+└── requirements.txt # Dependencies file
 ``` 
 
 ### File Descriptions 
