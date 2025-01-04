@@ -7,8 +7,11 @@ The goal of the project is to develop a model that can help predict important as
 
 This involves data preprocessing, model training, evaluation, and feature importance analysis, with the final objective of delivering a predictive model suitable for HRD-related applications. 
 
-## Project Structure The project is organized into the following structure: ``` my_project/ │ ├── main.py # Main script that runs the overall pipeline │ ├── data_preprocessing.py # Functions related to data loading, cleaning, and preprocessing │ ├── model.py # Model building and training functions │ ├── evaluation.py # Evaluation and performance functions (accuracy, feature importance, etc.) │ ├── utils.py # Utility functions like checks and plotting │ └── requirements.txt # Dependencies file ``` ### File Descriptions 
+## Project Structure 
+The project is organized into the following structure: 
+``` my_project/ │ ├── main.py # Main script that runs the overall pipeline │ ├── data_preprocessing.py # Functions related to data loading, cleaning, and preprocessing │ ├── model.py # Model building and training functions │ ├── evaluation.py # Evaluation and performance functions (accuracy, feature importance, etc.) │ ├── utils.py # Utility functions like checks and plotting │ └── requirements.txt # Dependencies file ``` 
 
+### File Descriptions 
 1. **`main.py`** This is the main entry point for the project. It runs the entire pipeline, including data loading, preprocessing, model training, and evaluation. It also integrates various functions from other modules to produce the final results. 
 2. **`data_preprocessing.py`** This file contains all functions related to data handling, including loading datasets, cleaning missing values, performing feature selection, and transforming the data into a format suitable for modeling. 
 3. **`model.py`** The model building and training functions reside here. It includes code to define, train, and evaluate machine learning models (such as classification or regression models). Hyperparameter tuning and model optimization may also be included in this file. 
