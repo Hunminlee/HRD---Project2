@@ -31,7 +31,7 @@ my_project/
 You can install them all by running the following command: ``` pip install -r requirements.txt ``` 
 
 ## How to Use 
-1. Clone the repository: ``` git clone https://github.com/yourusername/my_project.git cd my_project ```
+1. Clone the repository: ``` git clone https://github.com/Hunminlee/HRD---Project2.git cd my_project ```
 2. Install the required dependencies: ``` pip install -r requirements.txt ```
 3. Run the project: To execute the full pipeline, run the `main.py` script: ``` python main.py ``` This will automatically load the data, preprocess it, train the model, and display evaluation results.
 
